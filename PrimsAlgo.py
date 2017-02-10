@@ -1,8 +1,10 @@
-#Python code to implement djikstra's algorithm. The program takes a graph and finds the shortest distance from source vertex to other vertices.
+#PROGRAM: Python code to implement Prim's algorithm. The program takes a graph and finds the shortest distance from source vertex to other vertices.
 
 #OUTPUT: compiles, gives correct reply
+
 #TOP learnings:
-#1. 
+#1. Creating different operations using dictionaries
+#2. Using global variables
 
 '''
 algorithm logic:
