@@ -40,7 +40,9 @@ class djik():
         tmpDicto = distValueDicto.copy()
 
         #step 2:delete the min vertices from the dict that have already been selected
+        #this "for" loop is run as many times as the function "findingMinVertex" has been called previously
         for i in range (counter):
+        #this is the "global" counter, which has been initialized to 0 in the main program
             for i in tmpDicto.keys():
                 if tmpDicto[i] == min (tmpDicto.values()):
                     del tmpDicto[i]
@@ -118,6 +120,7 @@ print ("will print final distValueListo:")
 print (distValueDicto)
 
 '''
+OUTPUT:
 ( 0 , 5, 2 )
 ( 0 , 1, 5 )
 ( 1 , 2, 4 )
